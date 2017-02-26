@@ -2,6 +2,8 @@
 
 A real-time multiplayer game made with Phaser, Node.js and Socket.IO. Player one rescues drowning people, Player Two kills them.
 
+Entry for FGJ 2017.
+
 ##Install
 ```
 npm install
