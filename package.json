@@ -1,0 +1,22 @@
+{
+  "name": "Indian-Ocean-Simulator",
+  "version": "6.0.9",
+  "description": "Player One rescues drowning people, Player Two kills them.",
+  "main": "lib/game.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "standard --verbose | snazzy"
+  },
+  "author": "idiot kids",
+  "license": "Creative Commons",
+  "dependencies": {
+    "ecstatic": "^1.0.1",
+    "socket.io": "^0.9.16",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^0.7.10",
+    "standard": "^5.3.1"
+  }
+}

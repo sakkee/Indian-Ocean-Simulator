@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+	<meta charset='UTF-8' />
+	<title>Indian Ocean Simulator 2000</title>
+	<link type='text/css' rel='stylesheet' href='/style/reset.css' />
+	<link type='text/css' rel='stylesheet' href='/style/game.css' />
+	<script src='/js/vendor/phaser1.min.js'></script>
+	<script src='/socket.io/socket.io.js'></script>
+	<script src='/js/vendor/jquery-3.1.1.min.js'></script>
+  </head>
+  <body>
+	<script src='/js/game.js'></script>
+	<p class='score' id='rescuedscore'>Rescued: 0</p>
+    <p class='score' id='timer'>2:00</p>
+    <p class='score' id='killedscore'>Killed: 0</p>
+	<div class="inputfields">
+	<p class="info">You are sailing the Indian Ocean when suddenly immigrants in danger emerge from the depths of the sea. You play against an another player, one of you tries to rescue immigrants while the other drowns them. You have two minutes time to collect as many points in your role as you can. Use 'WASD' keys to move and spacebar to attack/rescue.  </p>
+	  <br/><div class='scoretablehere'></div><br/><input type="text" class="nameField" maxlength="12" placeholder="Username">
+	<input type="submit" class="sendName" value="Play!"><br/>
+	<input type="submit" class="playAgain" value="Play again!" style="visibility:hidden;">
+	</div>
+	</body>
+</html>
