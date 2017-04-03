@@ -4,6 +4,8 @@ A real-time multiplayer game made with Phaser, Node.js and Socket.IO. Player one
 
 Entry for FGJ 2017.
 
+http://globalgamejam.org/2017/games/indian-ocean-simulator
+
 ##Install
 ```
 npm install
